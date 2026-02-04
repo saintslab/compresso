@@ -2,6 +2,10 @@
 
 Compresso is an analytical tool designed to facilitate the exploration of Minimal Finite Covering (MFC) as a rigorous framework for dataset condensation. Unlike standard dataset distillation methods that prioritize empirical performance at the cost of adversarial stability, this tool implements a robustness-aware approach by identifying a discrete skeleton $\mathcal{C}$ that forms an $\epsilon$-covering of the high-dimensional manifold $\mathcal{X}$. The theoretical foundation of Compresso ensures that models trained on the condensed set optimize a provable lower bound of the generalized adversarial loss.
 
+<p float="left">
+  <img src="overview.png" width="800" height="" />
+</p>
+
 ## Installation and Environment Configuration
 
 To deploy Compresso on a local system, a Python 3.8+ environment is required alongside several scientific computing libraries. Users should first clone the repository and navigate into the project directory to initialize the environment. The primary dependencies include PyTorch and Torchvision for model architecture and data ingestion, Streamlit for the interactive interface, Scikit-learn for manifold projections, and Plotly for geometric visualization. These can be installed by executing a single command through the package manager using pip install streamlit torch torchvision scikit-learn plotly pandas numpy pillow. It is recommended to perform this installation within a dedicated virtual environment to prevent dependency conflicts with existing system-level libraries.
