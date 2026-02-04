@@ -183,7 +183,7 @@ def get_projection(vectors, method="PCA"):
 def main():
     st.set_page_config(page_title="MFC Robustness Explorer", layout="wide")
     
-    st.title("🛡️ Minimal Finite Covering (MFC) Analysis")
+    st.title("🛡️ Compresso: Minimal Finite Covering (MFC) Analysis")
     st.markdown("""
     This analysis tool facilitates the exploration of **Minimal Finite Covering** for dataset condensation.
     By identifying a discrete skeleton $\mathcal{C}$ that forms an $\epsilon$-covering of the high-dimensional manifold $\mathcal{X}$,
